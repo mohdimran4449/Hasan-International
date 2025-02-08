@@ -1,0 +1,152 @@
+/* General Page Styling */
+.service-page {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Service Container Styling */
+.service-container {
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Equestrian Heading */
+.equestrian-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 4rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #0A2540;
+  text-align: center;
+}
+
+/* Equestrian Description */
+.equestrian-description {
+  font-size: 1.4rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto 70px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Products Heading with Centered Underline */
+.products-heading {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Cinzel', serif;
+  color: #000000;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+.products-heading::after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  bottom: -5px;
+  height: 2px;
+  background-color: #0A2540;
+}
+
+/* Product Gallery arranged in one row with even spacing */
+.product-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Updated Product Item - Increased width */
+.product-item {
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+/* Container for the image with a portrait aspect ratio */
+.product-image-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Product Image */
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Product Name Below the Image */
+.product-name {
+  background-color: #ffffff;
+  color: #0A2540;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 6px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+}
+
+.product-name p {
+  margin: 0;
+}
+
+/* Download Brochure Button Styles */
+.download-brochure-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.download-brochure-button {
+  display: inline-block;
+  background-color: white;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 15px 40px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download-brochure-button:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .equestrian-heading {
+    font-size: 3rem;
+  }
+  .equestrian-description {
+    font-size: 1.2rem;
+  }
+  .product-gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
