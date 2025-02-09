@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Hasan-International/static/css/main.7f1e5bd1.css",
+    "main.js": "/Hasan-International/static/js/main.d08c7227.js",
+    "static/media/SaddlePad.jpg": "/Hasan-International/static/media/SaddlePad.9f48db34c5ceb2f30162.jpg",
+    "static/media/SheepNappa.jpg": "/Hasan-International/static/media/SheepNappa.371eb1bf0eb66d9a63ef.jpg",
+    "static/media/LeatherBelts.jpg": "/Hasan-International/static/media/LeatherBelts.31496d5dd81589a3aed9.jpg",
+    "static/media/DuffleBags.jpg": "/Hasan-International/static/media/DuffleBags.5bcdfa202cea798becdb.jpg",
+    "static/media/hero.jpg": "/Hasan-International/static/media/hero.cbdd141c97d158ef60d8.jpg",
+    "static/media/SocialResponsibility.jpg": "/Hasan-International/static/media/SocialResponsibility.4dacf454362908aa71fc.jpg",
+    "static/media/GoatLeather.jpg": "/Hasan-International/static/media/GoatLeather.cd93bf2888a9a1bb8cd3.jpg",
+    "static/media/PHOTO-2025-02-04-19-52-07.jpg": "/Hasan-International/static/media/PHOTO-2025-02-04-19-52-07.9ad149569e1ad1e84c0c.jpg",
+    "static/media/ClutchBags.jpg": "/Hasan-International/static/media/ClutchBags.1dab7fac05a2606b1fc2.jpg",
+    "static/media/LeatherWallets.jpg": "/Hasan-International/static/media/LeatherWallets.76fa580a6d7f26a77e2f.jpg",
+    "static/media/Luggage.jpg": "/Hasan-International/static/media/Luggage.86a6370efdb0cc04bbde.jpg",
+    "static/media/Rugs.jpg": "/Hasan-International/static/media/Rugs.ffa264c486a83def6ece.jpg",
+    "static/media/Bagpacks.jpg": "/Hasan-International/static/media/Bagpacks.b27a37191b024f382aae.jpg",
+    "static/media/Briddle.jpg": "/Hasan-International/static/media/Briddle.dd66bed212e463fa02d0.jpg",
+    "static/media/OfficeBags.jpg": "/Hasan-International/static/media/OfficeBags.2d5569a9a50850634c38.jpg",
+    "static/media/BuffaloLeather.jpg": "/Hasan-International/static/media/BuffaloLeather.83b60f89f974899e59b0.jpg",
+    "static/media/Saddle.jpg": "/Hasan-International/static/media/Saddle.644eab310628e946f003.jpg",
+    "static/media/FinishedLeather.jpg": "/Hasan-International/static/media/FinishedLeather.4abee945dca43f6a42dc.jpg",
+    "static/media/Purses.jpg": "/Hasan-International/static/media/Purses.fff9f305cd6472766b79.jpg",
+    "static/media/Equestrian.jpg": "/Hasan-International/static/media/Equestrian.13a78f76bf3a8cdc9478.jpg",
+    "static/media/LeatherBags.jpg": "/Hasan-International/static/media/LeatherBags.e95947d86841f094e246.jpg",
+    "index.html": "/Hasan-International/index.html",
+    "main.7f1e5bd1.css.map": "/Hasan-International/static/css/main.7f1e5bd1.css.map",
+    "main.d08c7227.js.map": "/Hasan-International/static/js/main.d08c7227.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f1e5bd1.css",
+    "static/js/main.d08c7227.js"
+  ]
+}
