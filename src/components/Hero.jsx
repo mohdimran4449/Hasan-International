@@ -29,7 +29,7 @@ const Hero = () => {
             Hasan International is a reliable leather goods production house that consistently crafts high-quality products for our esteemed partners across the world.
             </motion.p>
           <motion.a
-            href="/about-us" // Changed to About Us page link
+            href="#/about-us" // Changed to About Us page link
             className="about-btn" // Renamed class for clarity
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
