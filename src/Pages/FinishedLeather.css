@@ -144,6 +144,7 @@
     .articles-gallery {
       flex-direction: column;
       gap: 20px;
+      align-items: center;
     }
   
     .article-item {
@@ -151,11 +152,12 @@
     }
   
     .finished-leather-heading {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      text-align: center;
     }
-  
     .finished-leather-description {
-      font-size: 1rem;
+      font-size: 1.2rem;
+      text-align: center;
     }
   
     .articles-heading {

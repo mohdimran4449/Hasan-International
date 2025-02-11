@@ -47,7 +47,7 @@
     position: absolute;
     width: 50%; /* Centered underline */
     left: 25%;
-    bottom: 0;
+    bottom: -5px;
     height: 3px;
     background-color: #0A2540;
     border-radius: 2px;
@@ -93,30 +93,7 @@
     margin-top: 15px; /* Increased margin to prevent hover overlap */
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .articlesGallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .articlesHeading::after {
-        width: 60%;
-        left: 20%;
-    }
-}
-
-@media (max-width: 768px) {
-    .articlesGallery {
-        grid-template-columns: 1fr;
-    }
-
-    .articlesHeading {
-        font-size: 2.2rem;
-    }
-}
-
-
-
+/* Download Brochure Button Styles */
 .downloadBrochureContainer {
     display: flex;
     justify-content: center;
@@ -137,4 +114,71 @@
 .downloadBrochureButton:hover {
     background-color: #000;
     color: white;
+}
+
+/* Responsive Design for Tablets */
+@media (max-width: 1024px) {
+    .articlesGallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articlesHeading::after {
+        width: 60%;
+        left: 20%;
+    }
+}
+
+/* Responsive Design for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Center the Artisan Products page */
+    .servicePage {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    .serviceContainer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .artisanHeading {
+        font-size: 3rem;
+        text-align: center;
+        margin: 0 auto 1rem auto;
+    }
+    .artisanDescriptionContainer {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .artisanDescription {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    /* Center Articles Section */
+    .articlesHeading {
+        font-size: 2.2rem;
+        text-align: center;
+        margin: 0 auto 1rem auto;
+    }
+    .articlesGallery {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+        margin: 0 auto;
+    }
+    .articleItem {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    /* Download Brochure Button (if needed) */
+    .downloadBrochureContainer {
+        margin-top: 2rem;
+    }
+    .downloadBrochureButton {
+        font-size: 1.3rem;
+        padding: 15px 30px;
+    }
 }
