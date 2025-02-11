@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17c99b50.css",
-    "main.js": "/static/js/main.75d66d83.js",
+    "main.css": "/static/css/main.f6938442.css",
+    "main.js": "/static/js/main.58ded442.js",
     "static/media/SaddlePad.jpg": "/static/media/SaddlePad.9f48db34c5ceb2f30162.jpg",
     "static/media/SheepNappa.jpg": "/static/media/SheepNappa.371eb1bf0eb66d9a63ef.jpg",
     "static/media/LeatherBelts.jpg": "/static/media/LeatherBelts.31496d5dd81589a3aed9.jpg",
@@ -24,11 +24,11 @@
     "static/media/Equestrian.jpg": "/static/media/Equestrian.13a78f76bf3a8cdc9478.jpg",
     "static/media/LeatherBags.jpg": "/static/media/LeatherBags.e95947d86841f094e246.jpg",
     "index.html": "/index.html",
-    "main.17c99b50.css.map": "/static/css/main.17c99b50.css.map",
-    "main.75d66d83.js.map": "/static/js/main.75d66d83.js.map"
+    "main.f6938442.css.map": "/static/css/main.f6938442.css.map",
+    "main.58ded442.js.map": "/static/js/main.58ded442.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c99b50.css",
-    "static/js/main.75d66d83.js"
+    "static/css/main.f6938442.css",
+    "static/js/main.58ded442.js"
   ]
 }
