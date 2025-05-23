@@ -16,11 +16,7 @@ const products = [
   { src: Bag1, name: "Office Bags" },
   { src: Bag2, name: "Leather Belts" },
   { src: Bag3, name: "Wallets & Card Holders" },
-  { src: Bag4, name: "Duffle Bags" },
-  { src: Bag5, name: "Luggage" },
   { src: Bag6, name: "Purses" },
-  { src: Bag7, name: "Backpacks" },
-  { src: Bag8, name: "Small Leather Goods" },
 ];
 
 const LeatherBags = () => {

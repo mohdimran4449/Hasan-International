@@ -139,50 +139,6 @@ body {
   border-radius: 10px;
 }
 
-/* Mobile Adjustments for Social Responsibility Section */
-@media (max-width: 768px) {
-  .social-responsibility {
-    /* Center the container on mobile by removing the extra left margin */
-    margin: 4rem auto;
-    padding: 2rem 1rem;  /* Optionally, reduce horizontal padding */
-    max-width: 100%;
-    text-align: center;  /* Center-align text on mobile */
-  }
-  
-  .social-container {
-    flex-direction: column;  /* Stack text and image vertically */
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .social-text {
-    max-width: 100%;
-    padding: 0 10px;
-    text-align: left;
-  }
-  
-  .social-text h2 {
-    text-align: left;
-  }
-  
-  .social-image {
-    max-width: 100%;
-    margin: 0 auto;  /* Remove left margin */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .social-image img {
-    width: 100%;
-    height: auto;  /* Allow the image to scale proportionally on mobile */
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-}
-
-
 
 /* Get in Touch Section */
 .get-in-touch {
@@ -239,19 +195,96 @@ body {
   font-weight: lighter;
 }
 
-/* Responsive Design */
+/* Global Mobile Responsiveness Adjustments */
 @media (max-width: 768px) {
+  /* About Us Section Mobile Fixes */
+  .about-us {
+    padding: 2rem 1rem;
+  }
+
   .about-container {
-    gap: 40px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 1rem;
   }
-  .equestrian-heading {
-    font-size: 3rem;
+
+  .about-image img {
+    max-width: 250px;
+    margin: 0 auto;
   }
-  .equestrian-description {
-    font-size: 1.2rem;
+
+  .about-content {
+    text-align: center;
+    padding: 0 1rem;
   }
+
+  .about-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .download-btn {
+    margin: 1.5rem auto;
+  }
+
+  /* Social Responsibility Mobile Fixes */
+  .social-responsibility {
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .social-image {
+    margin-left: 0;
+  }
+
+  .social-image img {
+    height: auto;
+    max-height: 300px;
+  }
+
+  /* Contact Section Mobile Fixes */
+  .get-in-touch {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
   .contact-container {
-    justify-content: center;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .contact-section {
+    flex: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .contact-section h3 {
+    font-size: 1.5rem;
+  }
+
+  /* Global Typography Adjustments */
+  h2 {
+    font-size: 2rem !important;
+  }
+}
+
+/* Add this for very small screens */
+@media (max-width: 480px) {
+  .about-image img {
+    max-width: 200px;
+  }
+
+  .about-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .social-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .get-in-touch h2 {
+    font-size: 1.5rem;
   }
 }
 
