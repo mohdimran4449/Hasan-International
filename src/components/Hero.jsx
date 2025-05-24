@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import heroImage from "/Users/mohdimran/Desktop/first project/hasan-international/src/images/hero.jpg";
 
 const Hero = () => {
   return (
@@ -11,14 +12,17 @@ const Hero = () => {
       transition={{ duration: 1 }}
     >
       <div className="hero-container">
-        <div className="hero-image"></div>
+        <div className="hero-image-container">
+          <img src={heroImage} alt="Hasan International" className="hero-image" />
+          <div className="hero-mobile-overlay"></div>
+        </div>
         <div className="hero-content">
           <motion.h1
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Hasan International
+            Hasan<br />International
           </motion.h1>
           <motion.p
             className="hero-description"

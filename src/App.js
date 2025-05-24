@@ -5,10 +5,11 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import SocialResponsibility from "./components/SocialResponsibility";
 import AboutUs from "./Pages/AboutUs";
 import Equestrian from "./Pages/Equestrian";
-import FinishedLeather from "./Pages/FinishedLeather";
-import LeatherBags from "./Pages/LeatherBags";
+import LeatherGoods from "./Pages/LeatherGoods";
+import PetSupplies from "./Pages/PetSupplies";
 import ScrollToTop from "./ScrollToTop"; // Import ScrollToTop component
 
 function App() {
@@ -23,12 +24,13 @@ function App() {
             <>
               <Hero />
               <Services />
+              <SocialResponsibility />
             </>
           }
         />
         <Route path="/equestrian" element={<Equestrian />} />
-        <Route path="/finished-leather" element={<FinishedLeather />} />
-        <Route path="/artisan-products" element={<LeatherBags />} />
+        <Route path="/leather-goods" element={<LeatherGoods />} />
+        <Route path="/pet-supplies" element={<PetSupplies />} />
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
       <Footer />

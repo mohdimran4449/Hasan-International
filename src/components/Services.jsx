@@ -3,13 +3,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import equestrianImg from "../images/Equestrian.jpg";
 import finishedLeatherImg from "../images/FinishedLeather.jpg";
-import leatherBagsImg from "../images/LeatherBags.jpg";
+import PetSupplies from "../images/PetSupplies.jpg";
 
 // Services data (title, image, and link)
 const services = [
   { title: "Equestrian", image: equestrianImg, link: "/equestrian" },
-  { title: "Finished Leather", image: finishedLeatherImg, link: "/finished-leather" },
-  { title: "Artisan Products", image: leatherBagsImg, link: "/artisan-products" },
+  { title: "Leather Goods", image: finishedLeatherImg, link: "/leather-goods" },
+  { title: "Pet Supplies", image: PetSupplies, link: "/pet-supplies" },
 ];
 
 const Services = () => {

@@ -12,10 +12,9 @@ const Equestrian = () => {
 
   // Product data
   const products = [
-    { id: 1, name: "Saddles", image: Saddle, details: "/product1" },
-    { id: 2, name: "Bridles & Halters", image: Briddle, details: "/product2" },
-    { id: 4, name: "Saddle Pads", image: SaddlePad, details: "/product4" },
-    { id: 6, name: "Horse Rugs", image: Rugs, details: "/product6" }
+    { id: 1, name: "Rider", image: Saddle, details: "/product1" },
+    { id: 2, name: "Horse", image: Briddle, details: "/product2" },
+    { id: 6, name: "Horse Feed", image: Rugs, details: "/product6" }
   ];
 
   return (
@@ -51,17 +50,6 @@ const Equestrian = () => {
               </div>
             </motion.div>
           ))}
-        </div>
-
-        {/* Download Brochure Option */}
-        <div className="download-brochure-container">
-          <a
-            className="download-brochure-button"
-            href="/Broacher/Hasan International Company Profile.pdf"  // Ensure the file is in your public folder
-            download
-          >
-            Download Catalog
-          </a>
         </div>
       </div>
     </motion.div>
