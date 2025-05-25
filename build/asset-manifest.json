@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.562ce266.css",
+    "main.css": "/static/css/main.b3cf3448.css",
     "main.js": "/static/js/main.3c21d701.js",
     "static/media/SocialResponsibility.mp4": "/static/media/SocialResponsibility.0022294ffb525480a5d7.mp4",
     "static/media/SaddlePad.jpg": "/static/media/SaddlePad.9f48db34c5ceb2f30162.jpg",
@@ -26,11 +26,11 @@
     "static/media/LeatherGarments.jpg": "/static/media/LeatherGarments.a8f904fd22ea1e402682.jpg",
     "static/media/logo.jpeg": "/static/media/logo.67af6db55a84f789d677.jpeg",
     "index.html": "/index.html",
-    "main.562ce266.css.map": "/static/css/main.562ce266.css.map",
+    "main.b3cf3448.css.map": "/static/css/main.b3cf3448.css.map",
     "main.3c21d701.js.map": "/static/js/main.3c21d701.js.map"
   },
   "entrypoints": [
-    "static/css/main.562ce266.css",
+    "static/css/main.b3cf3448.css",
     "static/js/main.3c21d701.js"
   ]
 }
