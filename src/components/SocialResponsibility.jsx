@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import socialVideo from '/Users/mohdimran/Desktop/first project/hasan-international/src/images/SocialResponsibility.mp4';
+import socialPoster from '/Users/mohdimran/Desktop/first project/hasan-international/src/images/SocialResponsibility.jpg';
 
 const SocialResponsibility = () => {
   return (
@@ -11,7 +12,15 @@ const SocialResponsibility = () => {
       transition={{ duration: 1 }}
     >
       <div className="social-video-container">
-        <video autoPlay loop muted className="social-background-video">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          webkit-playsinline="true"
+          className="social-background-video"
+          poster={socialPoster}
+        >
           <source src={socialVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

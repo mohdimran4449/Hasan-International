@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.4c7f9a83.css",
-    "main.js": "/static/js/main.f94faef3.js",
+    "main.js": "/static/js/main.3c21d701.js",
     "static/media/SocialResponsibility.mp4": "/static/media/SocialResponsibility.0022294ffb525480a5d7.mp4",
     "static/media/SaddlePad.jpg": "/static/media/SaddlePad.9f48db34c5ceb2f30162.jpg",
     "static/media/Care.jpg": "/static/media/Care.1b555e4cfb7e7e8f5732.jpg",
     "static/media/Rugs.jpg": "/static/media/Rugs.03bf303b52f9766b8cc4.jpg",
     "static/media/PetSupplies.jpg": "/static/media/PetSupplies.e6260ceabd5579e08095.jpg",
     "static/media/hero.jpg": "/static/media/hero.cbdd141c97d158ef60d8.jpg",
+    "static/media/SocialResponsibility.jpg": "/static/media/SocialResponsibility.4dacf454362908aa71fc.jpg",
     "static/media/PHOTO-2025-02-04-19-52-07.jpg": "/static/media/PHOTO-2025-02-04-19-52-07.9ad149569e1ad1e84c0c.jpg",
     "static/media/Briddle.jpg": "/static/media/Briddle.dd66bed212e463fa02d0.jpg",
     "static/media/Artisan.jpg": "/static/media/Artisan.2d5569a9a50850634c38.jpg",
@@ -26,10 +27,10 @@
     "static/media/logo.jpeg": "/static/media/logo.67af6db55a84f789d677.jpeg",
     "index.html": "/index.html",
     "main.4c7f9a83.css.map": "/static/css/main.4c7f9a83.css.map",
-    "main.f94faef3.js.map": "/static/js/main.f94faef3.js.map"
+    "main.3c21d701.js.map": "/static/js/main.3c21d701.js.map"
   },
   "entrypoints": [
     "static/css/main.4c7f9a83.css",
-    "static/js/main.f94faef3.js"
+    "static/js/main.3c21d701.js"
   ]
 }
