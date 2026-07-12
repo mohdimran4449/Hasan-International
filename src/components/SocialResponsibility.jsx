@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-import socialVideo from '/Users/mohdimran/Desktop/first project/hasan-international/src/images/SocialResponsibility.mp4';
-import socialPoster from '/Users/mohdimran/Desktop/first project/hasan-international/src/images/SocialResponsibility.jpg';
+import socialVideo from "../images/SocialResponsibility.mp4";
+import socialPoster from "../images/SocialResponsibility.jpg";
 
 const SocialResponsibility = () => {
   return (

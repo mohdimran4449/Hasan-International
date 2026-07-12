@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
-import aboutImage from "/Users/mohdimran/Desktop/first project/hasan-international/src/images/PHOTO-2025-02-04-19-52-07.jpg";
-import historyImage1 from "/Users/mohdimran/Desktop/first project/hasan-international/src/Pages/AboutUsImages/History.jpeg";
-import historyImage2 from "/Users/mohdimran/Desktop/first project/hasan-international/src/Pages/AboutUsImages/WhatWeDo.jpeg";
-import leatherImage from "/Users/mohdimran/Desktop/first project/hasan-international/src/Pages/AboutUsImages/WhoWeAre.jpg";
+import aboutImage from "../images/PHOTO-2025-02-04-19-52-07.jpg";
+import historyImage1 from "./AboutUsImages/History.jpeg";
+import historyImage2 from "./AboutUsImages/WhatWeDo.jpeg";
+import leatherImage from "./AboutUsImages/WhoWeAre.jpg";
 const AboutUs = () => {
   return (
     <motion.section

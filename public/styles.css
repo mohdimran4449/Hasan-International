@@ -1,0 +1,118 @@
+/* Reset + sensible defaults */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body, #root {
+	height: 100%;
+}
+:root{
+	--bg: #ffffff;
+	--muted: #6b7280;
+	--text: #071129;
+	--accent: #0f5ef6;
+	--surface: rgba(11,18,32,0.04);
+	--radius: 10px;
+	--container-max: 1200px;
+	font-size: 16px;
+}
+
+/* Typography */
+body{
+	font-family: "Cinzel", Georgia, serif;
+	background: linear-gradient(180deg,#fbfdff,#ffffff);
+	color: var(--text);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.45;
+	letter-spacing: 0.2px;
+	padding: 24px;
+}
+
+/* Center the app and provide a balanced container */
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	min-height: calc(100vh - 48px);
+}
+
+/* Common app container — add this class to your top-level React component */
+.app-container {
+	width: 100%;
+	max-width: var(--container-max);
+	background: var(--bg);
+	border-radius: var(--radius);
+	box-shadow: 0 8px 30px rgba(11,18,32,0.06);
+	padding: 28px;
+	margin: 12px;
+}
+
+/* Headings and text balance */
+h1, h2, h3, h4 {
+	line-height: 1.1;
+	margin-bottom: 12px;
+	color: var(--text);
+}
+p {
+	margin-bottom: 12px;
+	color: var(--muted);
+}
+
+/* Images and media */
+img, video {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+/* Forms and controls — make inputs consistent across the app */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid rgba(11,18,32,0.12);
+	border-radius: 8px;
+	background: #fff;
+	color: var(--text);
+	outline: none;
+	transition: box-shadow .15s ease, border-color .15s ease;
+}
+input:focus, textarea:focus, select:focus {
+	border-color: var(--accent);
+	box-shadow: 0 6px 20px rgba(15,94,246,0.08);
+}
+
+/* Buttons */
+button {
+	background: var(--accent);
+	color: #fff;
+	padding: 10px 16px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+	transition: transform .08s ease, box-shadow .12s ease, opacity .12s ease;
+}
+button:active { transform: translateY(1px); }
+button[disabled] { opacity: 0.6; cursor: not-allowed; }
+
+/* Utilities */
+.row { display: flex; gap: 16px; align-items: center; }
+.column { display: flex; flex-direction: column; gap: 12px; }
+.center { display: flex; justify-content: center; align-items: center; }
+
+/* Responsive */
+@media (max-width: 800px) {
+	body { padding: 16px; }
+	.app-container { padding: 18px; margin: 8px; border-radius: 8px; }
+	.row { flex-direction: column; align-items: stretch; }
+}

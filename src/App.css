@@ -5,6 +5,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 /* About Us Section */
@@ -1042,6 +1043,24 @@ body {
   flex: 1;
 }
 
+.service-card img.service-image-contain {
+  object-fit: cover;
+  background-color: #ffffff;
+}
+
+.service-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  min-height: 350px;
+  background: linear-gradient(135deg, #f4f4f4, #dedede);
+  color: #555555;
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+}
+
 .service-overlay {
   background: rgba(255, 255, 255, 0.8);
   color: #000000;
@@ -1064,6 +1083,55 @@ body {
 /* Prevent underlines specifically on links inside .service-overlay */
 .service-overlay a {
   text-decoration: none !important;
+}
+
+/* Our Brands Section */
+.our-brands {
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+}
+
+.our-brands h2 {
+  font-size: 3rem;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin: 0 0 3rem;
+  color: #000000;
+  font-weight: normal;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.brand-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 180px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.brand-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.brand-logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Footer Section */
@@ -1248,6 +1316,11 @@ footer p {
     height: 250px; /* Consistent height on mobile */
   }
 
+  .service-image-placeholder {
+    height: 250px;
+    min-height: 250px;
+  }
+
   .service-overlay h3 {
     font-size: 1.2rem;
     padding: 0 10px;
@@ -1255,5 +1328,34 @@ footer p {
     box-sizing: border-box;
     overflow-wrap: break-word;
     word-wrap: break-word;
+  }
+
+  .brands-grid {
+    grid-template-columns: 1fr;
+    max-width: 190px;
+  }
+
+  .brand-card {
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .services,
+  .our-brands {
+    padding: 3rem 1rem;
+  }
+
+  .services h2,
+  .our-brands h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .footer {
+    padding: 2rem 1rem;
   }
 }

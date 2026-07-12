@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
 import equestrianImg from "../images/Equestrian.jpg";
-import finishedLeatherImg from "../images/FinishedLeather.jpg";
-import PetSupplies from "../images/PetSupplies.jpg";
+import PetSupplies from "../images/PetSupplies.jpeg";
+import PetAccessories from "../images/PetSupplies.jpg";
 
 // Services data (title, image, and link)
 const services = [
   { title: "Equestrian", image: equestrianImg, link: "/equestrian" },
-  { title: "Leather Goods", image: finishedLeatherImg, link: "/leather-goods" },
-  { title: "Pet Supplies", image: PetSupplies, link: "/pet-supplies" },
+  { title: "Pet Food", image: PetSupplies, link: "/pet-food", containImage: true },
+  { title: "Pet Supplies", image: PetAccessories, link: "/pet-supplies" },
 ];
 
 const Services = () => {
@@ -32,7 +32,7 @@ const Services = () => {
       <div className="services-grid">
         {services.map((service, index) => (
           <motion.div
-            key={index}
+            key={service.title}
             className="service-card"
             whileHover={{ scale: 1.05 }} // Hover scale effect for the card
             initial={{ opacity: 0, y: 50 }} // Initial animation for each card (fade and slide-up)
@@ -40,12 +40,19 @@ const Services = () => {
             transition={{ delay: index * 0.2, duration: 0.5 }} // Animation delay for each card based on index
           >
             <Link to={service.link}>
-              <motion.img
-                src={service.image}
-                alt={service.title}
-                whileHover={{ scale: 1.1 }} // Increase image size on hover
-                transition={{ duration: 0.3 }} // Quick transition for image scaling
-              />
+              {service.placeholder ? (
+                <div className="service-image-placeholder" aria-hidden="true">
+                  Image Placeholder
+                </div>
+              ) : (
+                <motion.img
+                  src={service.image}
+                  alt={service.title}
+                  className={service.containImage ? "service-image-contain" : ""}
+                  whileHover={{ scale: 1.1 }} // Increase image size on hover
+                  transition={{ duration: 0.3 }} // Quick transition for image scaling
+                />
+              )}
               <div className="service-overlay">
                 <h3>{service.title}</h3>
               </div>
